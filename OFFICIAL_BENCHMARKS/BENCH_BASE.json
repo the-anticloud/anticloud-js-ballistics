@@ -1,0 +1,453 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "JS_BALLISTICS",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\ARTILLERY_MANUFACTURING\\JS_BALLISTICS\\UPSTREAM_CLONE",
+    "git": {
+      "head": "497ea5c482f03e84f93b2f2bed15f5fba0399031",
+      "url": "https://github.com/o-murphy/js-ballistics",
+      "branch": "master",
+      "committed_at": "2026-10-01T23:57:49Z"
+    }
+  },
+  "metrics": {
+    "files_total": 63,
+    "source_files_scanned": 37,
+    "lines_of_code": 10127,
+    "languages": {
+      ".ts": 33,
+      "(none)": 11,
+      ".md": 4,
+      ".js": 4,
+      ".yml": 4,
+      ".json": 2,
+      ".html": 2,
+      ".lock": 1,
+      ".bak": 1,
+      ".mjs": 1
+    }
+  },
+  "licence": {
+    "spdx": "ISC",
+    "class": "A",
+    "source_file": "LICENSE",
+    "redistribution_allowed": true
+  },
+  "dependencies": {
+    "count": 19,
+    "unique": 19,
+    "by_ecosystem": {
+      "npm": 19
+    },
+    "list": [
+      {
+        "ecosystem": "npm",
+        "name": "@babel/core",
+        "version": "^8.0.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@babel/preset-env",
+        "version": "^8.0.2",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@babel/preset-typescript",
+        "version": "^8.0.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@eslint/js",
+        "version": "^10.0.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@jest/globals",
+        "version": "^30.3.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/jest",
+        "version": "^30.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^26.1.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/eslint-plugin",
+        "version": "^8.60.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@typescript-eslint/parser",
+        "version": "^8.60.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "babel-jest",
+        "version": "^30.3.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^10.4.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-config-prettier",
+        "version": "^10.1.8",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-plugin-jest",
+        "version": "^29.5.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "gh-pages",
+        "version": "^6.3.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "jest",
+        "version": "^30.3.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "^3.8.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "ts-jest",
+        "version": "^29.4.6",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "tsup",
+        "version": "^8.5.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^6.0.3",
+        "source_file": "package.json",
+        "raw": ""
+      }
+    ]
+  },
+  "owasp_top10": {
+    "total_findings": 0,
+    "files_with_findings": 0,
+    "severity": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A03-Injection": {
+        "count": 0,
+        "findings": []
+      },
+      "A04-InsecureDesign": {
+        "count": 0,
+        "findings": []
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 0,
+        "findings": []
+      },
+      "A06-VulnerableComponents": {
+        "count": 0,
+        "findings": []
+      },
+      "A07-AuthFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 0,
+        "findings": []
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 0,
+    "files_with_findings": 0,
+    "severity": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM09-Misinformation": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:38e3f8f7-e99d-58ad-a8ad-6b360f255990",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-05T14:35:07Z",
+      "component": {
+        "type": "application",
+        "name": "JS_BALLISTICS",
+        "version": "497ea5c482f0",
+        "bom-ref": "pkg:generic/anticloud/JS_BALLISTICS@497ea5c482f0",
+        "purl": "pkg:generic/anticloud/JS_BALLISTICS@497ea5c482f0",
+        "licenses": [
+          {
+            "license": {
+              "id": "ISC"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": "497ea5c482f03e84f93b2f2bed15f5fba0399031"
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/o-murphy/js-ballistics"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@babel/core",
+        "version": "^8.0.1",
+        "purl": "pkg:npm/@babel/core@^8.0.1",
+        "bom-ref": "npm/@babel/core@^8.0.1"
+      },
+      {
+        "type": "library",
+        "name": "@babel/preset-env",
+        "version": "^8.0.2",
+        "purl": "pkg:npm/@babel/preset-env@^8.0.2",
+        "bom-ref": "npm/@babel/preset-env@^8.0.2"
+      },
+      {
+        "type": "library",
+        "name": "@babel/preset-typescript",
+        "version": "^8.0.1",
+        "purl": "pkg:npm/@babel/preset-typescript@^8.0.1",
+        "bom-ref": "npm/@babel/preset-typescript@^8.0.1"
+      },
+      {
+        "type": "library",
+        "name": "@eslint/js",
+        "version": "^10.0.1",
+        "purl": "pkg:npm/@eslint/js@^10.0.1",
+        "bom-ref": "npm/@eslint/js@^10.0.1"
+      },
+      {
+        "type": "library",
+        "name": "@jest/globals",
+        "version": "^30.3.0",
+        "purl": "pkg:npm/@jest/globals@^30.3.0",
+        "bom-ref": "npm/@jest/globals@^30.3.0"
+      },
+      {
+        "type": "library",
+        "name": "@types/jest",
+        "version": "^30.0.0",
+        "purl": "pkg:npm/@types/jest@^30.0.0",
+        "bom-ref": "npm/@types/jest@^30.0.0"
+      },
+      {
+        "type": "library",
+        "name": "@types/node",
+        "version": "^26.1.1",
+        "purl": "pkg:npm/@types/node@^26.1.1",
+        "bom-ref": "npm/@types/node@^26.1.1"
+      },
+      {
+        "type": "library",
+        "name": "@typescript-eslint/eslint-plugin",
+        "version": "^8.60.1",
+        "purl": "pkg:npm/@typescript-eslint/eslint-plugin@^8.60.1",
+        "bom-ref": "npm/@typescript-eslint/eslint-plugin@^8.60.1"
+      },
+      {
+        "type": "library",
+        "name": "@typescript-eslint/parser",
+        "version": "^8.60.1",
+        "purl": "pkg:npm/@typescript-eslint/parser@^8.60.1",
+        "bom-ref": "npm/@typescript-eslint/parser@^8.60.1"
+      },
+      {
+        "type": "library",
+        "name": "babel-jest",
+        "version": "^30.3.0",
+        "purl": "pkg:npm/babel-jest@^30.3.0",
+        "bom-ref": "npm/babel-jest@^30.3.0"
+      },
+      {
+        "type": "library",
+        "name": "eslint",
+        "version": "^10.4.1",
+        "purl": "pkg:npm/eslint@^10.4.1",
+        "bom-ref": "npm/eslint@^10.4.1"
+      },
+      {
+        "type": "library",
+        "name": "eslint-config-prettier",
+        "version": "^10.1.8",
+        "purl": "pkg:npm/eslint-config-prettier@^10.1.8",
+        "bom-ref": "npm/eslint-config-prettier@^10.1.8"
+      },
+      {
+        "type": "library",
+        "name": "eslint-plugin-jest",
+        "version": "^29.5.0",
+        "purl": "pkg:npm/eslint-plugin-jest@^29.5.0",
+        "bom-ref": "npm/eslint-plugin-jest@^29.5.0"
+      },
+      {
+        "type": "library",
+        "name": "gh-pages",
+        "version": "^6.3.0",
+        "purl": "pkg:npm/gh-pages@^6.3.0",
+        "bom-ref": "npm/gh-pages@^6.3.0"
+      },
+      {
+        "type": "library",
+        "name": "jest",
+        "version": "^30.3.0",
+        "purl": "pkg:npm/jest@^30.3.0",
+        "bom-ref": "npm/jest@^30.3.0"
+      },
+      {
+        "type": "library",
+        "name": "prettier",
+        "version": "^3.8.1",
+        "purl": "pkg:npm/prettier@^3.8.1",
+        "bom-ref": "npm/prettier@^3.8.1"
+      },
+      {
+        "type": "library",
+        "name": "ts-jest",
+        "version": "^29.4.6",
+        "purl": "pkg:npm/ts-jest@^29.4.6",
+        "bom-ref": "npm/ts-jest@^29.4.6"
+      },
+      {
+        "type": "library",
+        "name": "tsup",
+        "version": "^8.5.1",
+        "purl": "pkg:npm/tsup@^8.5.1",
+        "bom-ref": "npm/tsup@^8.5.1"
+      },
+      {
+        "type": "library",
+        "name": "typescript",
+        "version": "^6.0.3",
+        "purl": "pkg:npm/typescript@^6.0.3",
+        "bom-ref": "npm/typescript@^6.0.3"
+      }
+    ]
+  },
+  "elapsed_seconds": 43.94
+}

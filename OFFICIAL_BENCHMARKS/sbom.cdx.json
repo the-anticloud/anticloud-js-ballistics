@@ -1,0 +1,172 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:38e3f8f7-e99d-58ad-a8ad-6b360f255990",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T07:12:22Z",
+    "component": {
+      "type": "application",
+      "name": "JS_BALLISTICS",
+      "version": "497ea5c482f0",
+      "bom-ref": "pkg:generic/anticloud/JS_BALLISTICS@497ea5c482f0",
+      "purl": "pkg:generic/anticloud/JS_BALLISTICS@497ea5c482f0",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "497ea5c482f03e84f93b2f2bed15f5fba0399031"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/o-murphy/js-ballistics"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "@babel/core",
+      "version": "^8.0.1",
+      "purl": "pkg:npm/@babel/core@^8.0.1",
+      "bom-ref": "npm/@babel/core@^8.0.1"
+    },
+    {
+      "type": "library",
+      "name": "@babel/preset-env",
+      "version": "^8.0.2",
+      "purl": "pkg:npm/@babel/preset-env@^8.0.2",
+      "bom-ref": "npm/@babel/preset-env@^8.0.2"
+    },
+    {
+      "type": "library",
+      "name": "@babel/preset-typescript",
+      "version": "^8.0.1",
+      "purl": "pkg:npm/@babel/preset-typescript@^8.0.1",
+      "bom-ref": "npm/@babel/preset-typescript@^8.0.1"
+    },
+    {
+      "type": "library",
+      "name": "@eslint/js",
+      "version": "^10.0.1",
+      "purl": "pkg:npm/@eslint/js@^10.0.1",
+      "bom-ref": "npm/@eslint/js@^10.0.1"
+    },
+    {
+      "type": "library",
+      "name": "@jest/globals",
+      "version": "^30.3.0",
+      "purl": "pkg:npm/@jest/globals@^30.3.0",
+      "bom-ref": "npm/@jest/globals@^30.3.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/jest",
+      "version": "^30.0.0",
+      "purl": "pkg:npm/@types/jest@^30.0.0",
+      "bom-ref": "npm/@types/jest@^30.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "^26.1.1",
+      "purl": "pkg:npm/@types/node@^26.1.1",
+      "bom-ref": "npm/@types/node@^26.1.1"
+    },
+    {
+      "type": "library",
+      "name": "@typescript-eslint/eslint-plugin",
+      "version": "^8.60.1",
+      "purl": "pkg:npm/@typescript-eslint/eslint-plugin@^8.60.1",
+      "bom-ref": "npm/@typescript-eslint/eslint-plugin@^8.60.1"
+    },
+    {
+      "type": "library",
+      "name": "@typescript-eslint/parser",
+      "version": "^8.60.1",
+      "purl": "pkg:npm/@typescript-eslint/parser@^8.60.1",
+      "bom-ref": "npm/@typescript-eslint/parser@^8.60.1"
+    },
+    {
+      "type": "library",
+      "name": "babel-jest",
+      "version": "^30.3.0",
+      "purl": "pkg:npm/babel-jest@^30.3.0",
+      "bom-ref": "npm/babel-jest@^30.3.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint",
+      "version": "^10.4.1",
+      "purl": "pkg:npm/eslint@^10.4.1",
+      "bom-ref": "npm/eslint@^10.4.1"
+    },
+    {
+      "type": "library",
+      "name": "eslint-config-prettier",
+      "version": "^10.1.8",
+      "purl": "pkg:npm/eslint-config-prettier@^10.1.8",
+      "bom-ref": "npm/eslint-config-prettier@^10.1.8"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-jest",
+      "version": "^29.5.0",
+      "purl": "pkg:npm/eslint-plugin-jest@^29.5.0",
+      "bom-ref": "npm/eslint-plugin-jest@^29.5.0"
+    },
+    {
+      "type": "library",
+      "name": "gh-pages",
+      "version": "^6.3.0",
+      "purl": "pkg:npm/gh-pages@^6.3.0",
+      "bom-ref": "npm/gh-pages@^6.3.0"
+    },
+    {
+      "type": "library",
+      "name": "jest",
+      "version": "^30.3.0",
+      "purl": "pkg:npm/jest@^30.3.0",
+      "bom-ref": "npm/jest@^30.3.0"
+    },
+    {
+      "type": "library",
+      "name": "prettier",
+      "version": "^3.8.1",
+      "purl": "pkg:npm/prettier@^3.8.1",
+      "bom-ref": "npm/prettier@^3.8.1"
+    },
+    {
+      "type": "library",
+      "name": "ts-jest",
+      "version": "^29.4.6",
+      "purl": "pkg:npm/ts-jest@^29.4.6",
+      "bom-ref": "npm/ts-jest@^29.4.6"
+    },
+    {
+      "type": "library",
+      "name": "tsup",
+      "version": "^8.5.1",
+      "purl": "pkg:npm/tsup@^8.5.1",
+      "bom-ref": "npm/tsup@^8.5.1"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "^6.0.3",
+      "purl": "pkg:npm/typescript@^6.0.3",
+      "bom-ref": "npm/typescript@^6.0.3"
+    }
+  ]
+}
